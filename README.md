@@ -5,18 +5,18 @@ A script that looks for unsafe C functions in your source code and avoids unnecc
 Just download/copy paste the script and use it with either:
 
 ```bash
-chmod +x unsafe_checker.py
+chmod +x checkunsafe.py
 ```
 
 Verbose output, recursive search in current directory:
 ```
-./unsafe_checker.py -v[erbose] -r[ecursive] . -o result.txt  
+./checkunsafe.py -v[erbose] -r[ecursive] . -o result.txt  
 ```
 
 or:
 (with verbose output, recursive search in current directory)
 ```bash
-python3 unsafe_checker.py -v[erbose] -r[ecursive] . -o result.txt  
+python3 checkunsafe.py -v[erbose] -r[ecursive] . -o result.txt  
 ```
 
 
